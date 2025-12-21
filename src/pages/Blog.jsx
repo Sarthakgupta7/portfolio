@@ -7,23 +7,23 @@ export default function Blog() {
   const defaultPosts = [
     {
       id: 1,
-      title: "Why I Love Building AI Projects",
-      text: "Working on AI-based systems like mammogram cancer detection has taught me how impactful technology can be when applied to healthcare. Combining deep learning with real-world problems is my favorite way to innovate.",
+      title: "How Does an Electrical Engineering student will Add Value to Data Analytics ",
+      text: "Electrical Engineering today is no longer limited to circuits and machines, it is increasingly data-driven. From power systems and smart grids to IoT sensors and fault diagnostics, massive amounts of data are generated continuously. Data analytics enables an electrical engineer to extract meaningful insights from this data, optimize system performance, predict failures, and support intelligent decision-making. Learning analytics bridges the gap between traditional engineering and modern industry requirements.",
     },
     {
       id: 2,
-      title: "My Thoughts on Design & Aesthetics",
-      text: "I believe design should be a balance between functionality and emotion. Dark themes with minimalist layouts always inspire me to create something that feels personal and futuristic.",
+      title: "How Is Data Analytics Used in Power Systems and Energy Management",
+      text: "In Power System, Data Analytics is used for : Load Forecasting, Fault detection and predictive maintenance, power quality analysis etc. By applying statistical analysis and machine learning models, engineers can reduce outages, improve energy efficiency, and enhance grid reliability. This makes data analytics a critical skill for modern power engineers. ",
     },
     {
       id: 3,
-      title: "Balancing Tech and Creativity",
-      text: "As someone who codes and dances, I’ve realized creativity isn’t limited to art — it also lives in algorithms. Each project is like choreography for the mind.",
+      title: "What Mindset Should an Electrical Engineering Student Develop to Become a Data Analyst",
+      text: "Beyond tools and programming, mindset matters. A successful data-driven engineer should be curious about patterns, Questions assumptions, Validates results with data, Thinks critically about conclusions, Communicates insights Clearly,Engineering intuition combined with analytical thinking creates impactful solutions",
     },
     {
       id: 4,
-      title: "The Beauty of Simple Code",
-      text: "Clean code isn’t just about fewer lines — it’s about clarity. Elegance in code feels like poetry to me — each function should have rhythm and purpose.",
+      title: "How Does Data Analytics Prepare Electrical Engineers for Industry 4.0",
+      text: "Industry 4.0 emphasizes automation, IoT, and intelligent systems. Electrical engineers equipped with data analytics skills can analyze machine data, Optimize industrial processe,improve predictive maintenance.",
     },
   ];
 

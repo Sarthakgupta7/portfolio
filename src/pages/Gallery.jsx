@@ -7,41 +7,41 @@ const IMAGES = {
   personal: [
     {
       id: 1,
-      caption: "Lost in the beauty of the misty forest 🌲🌫️",
-      photos: ["/gallery/matheran.jpg", "/gallery/matheran2.jpg"],
+      caption: "College first year ",
+      photos: ["/gallery/college.jpg"],
     },
     {
       id: 2,
       caption:
-        "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/lonawala.jpg", "/gallery/lonawala2.jpg"],
+        "Gift of appreciation",
+      photos: ["/gallery/gift of appreciation.jpeg"],
     },
   ],
   projects: [
     {
       id: 1,
       caption:
-        "It’s an AI-powered tool that understands what someone might be feeling based on their words.",
-      photos: ["/gallery/m.png", "/gallery/m2.jpeg"],
+        "Me",
+      photos: ["/gallery/me.jpeg", "/gallery/me2.jpg","/gallery/working.jpg"],
     },
     
     {
       id: 1,
       caption:
-        "📂ProfileX - Smart Data Profiler + Preprocessor",
-      photos: ["/gallery/profilex.jpeg", "/gallery/profilex2.jpeg","/gallery/profilex3.jpeg", "/gallery/profilex4.jpeg"],
+        "workshop and visits",
+      photos: ["/gallery/workshop.jpeg", "/gallery/visit.JPG","/gallery/visit microsoft.jpeg", "/gallery/coca cola.jpg"],
     },
   ],
   achievements: [
     {
       id: 1,
-      caption: "Solved 1000 LeetCode questions 🏆!",
-      photos: ["/gallery/leet.jpeg"],
+      caption: "GS of one and only yoga club of ABES_EC",
+      photos: ["/gallery/GS- SYC_abesec.png"],
     },
     {
       id: 2,
-      caption: "Technical Lead at SCET AI Club 🤖",
-      photos: ["/gallery/techlead.png"],
+      caption: "certicates",
+      photos: ["/gallery/certificate.JPG"],
     },
   ],
 };

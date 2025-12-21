@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 Aditi Karn
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              3rd Year B.Tech — Electrical and Electronics| ABES EC, Dr A.P.J. Abdul Kalam Technical University
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 New Delhi, Delhi, Indian
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ aditikarnoff88@gmail.com |
             </p>
           </div>
 
@@ -80,10 +80,11 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
-              Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+              3rd-year B.Tech Electrical and Electronics student experienced in Statistical Analysis, Data Cleaning,
+              electrical systems, and Team Leadership.
+              Skilled in Python, Matlab, MySql, and Scikit-learn. Deeply fascinated by how data and
+              algorithms can shape the future of healthcare, automation, and
+              creativity in technology.
             </p>
           </motion.div>
         </motion.div>
@@ -106,19 +107,19 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>B.Tech in Electrical & Electornics</strong> — ABES EC
+              (AKTU), 2023–2027 <br />
+              <span style={{ color: "#aaa" }}>GPA: 7.8</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 78%</span>
+              <strong>12th Board — Kendriya Vidyalaya</strong> (CBSE
+              , 2023) <br />
+              <span style={{ color: "#aaa" }}>Percentage: 77.8%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — Kendriya Vidyalaya</strong> (CBSE, 2021)
               <br />
-              <span style={{ color: "#aaa" }}>Percentage: 85%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 88%</span>
             </li>
           </ul>
         </motion.div>
@@ -132,10 +133,10 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
-            <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
-            <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
+            <li>1️⃣ 4 legged robot</li>
+            <li>2️⃣ Women safety app </li>
+            <li>3️⃣ LLM Powered Resume </li>
+            <li>4️⃣ AI powered Health Platform</li>
           </ul>
         </motion.div>
 
@@ -151,21 +152,12 @@ export default function Resume() {
             {[
               "Python",
               "C",
-              "C++",
-              "Java",
-              "TensorFlow",
-              "PyTorch",
               "Scikit-learn",
-              "OpenCV",
-              "YOLO",
-              "Streamlit",
               "React",
               "MySQL",
-              "MongoDB",
               "Git",
-              "NLP",
-              "Explainable AI (XAI)",
               "Problem Solving",
+              "Leadership",   
               "Teamwork",
               "Adaptability",
               "Creativity",
@@ -198,9 +190,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            { name: "🏆 codechef", link: "https://www.codechef.com/users/bloat_ref_78" },
+            { name: "💻 GitHub", link: "https://github.com/aditikarn-analyst" },
+            { name: "💼 LinkedIn", link: "linkedin.com/in/aditikarn-data-analyst" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -234,7 +226,7 @@ export default function Resume() {
         >
           <iframe
             src="/resume.pdf"
-            title="Kunj Desai Resume"
+            title="Aditi Karn Resume"
             style={{
               width: "100%",
               height: "650px",

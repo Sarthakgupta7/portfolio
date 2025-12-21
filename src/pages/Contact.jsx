@@ -9,6 +9,7 @@ import whatsappLogo from "../../public/whatsapp.png";
 import instagramLogo from "../../public/insta.png";
 import facebookLogo from "../../public/facebook.png";
 
+
 import "../CSS/Contact.css"
 import '../index.css' 
 
@@ -67,12 +68,12 @@ export default function Contact() {
   };
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/kunj2803" },
-    { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
-    { img: gmailLogo, title: "Email", link: "mailto:kunjd2803@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918758209508" },
-    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/kunj_2834/" },
-    { img: facebookLogo, title: "Facebook", link: "https://www.facebook.com/kunj.desai.222608" },
+    { img: githubLogo, title: "GitHub", link: "https://github.com/aditikarn-analyst" },
+    { img: linkedinLogo, title: "LinkedIn", link: "https://linkedin.com/in/aditikarn-data-analyst" },
+    { img: gmailLogo, title: "Email", link: "mailto:aditikarnoff88@gmail.com" },
+    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918076599167" },
+    { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/coco_addu_08/" },
+    { img: facebookLogo, title: "Snapchat", link: "https://www.snapchat.com/add/aditi6707/" },
   ];
 
   return (

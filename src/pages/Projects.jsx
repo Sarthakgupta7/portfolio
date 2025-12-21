@@ -4,61 +4,53 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
+    title: '4 Legged robot',
+    desc: 'A four-legged robot project uses servo/DC motors controlled by a microcontroller to mimic animal-like walking. Its electrical system includes motor drivers, sensors, and a rechargeable battery for stable power and balance.',
+    ss: '/4 legged robot.jpg',
+    tech: ['Ardiuno', 'Hands-on experience'],
     live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    code: 'https://github.com/aditikarn-analyst/4-legged-robot'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+  title: 'Women Safety app- SIH 2024',
+  desc: 'A Women Safety API project provides a digital interface for emergency alerts and location sharing. It integrates with mobile apps, GPS, and messaging services to notify contacts or authorities instantly.',
+  ss: '/Women safety.jpeg',
+  tech: ['Python', 'Transformers', 'Sos-calling', 'software'],
+  live: '#',
+  code: 'https://github.com/aditikarn-analyst/Women-safety'
   },
   {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
-    ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
+    title: 'Night Lamp using LDR',
+    desc: 'A night lamp project uses a bulb/LED powered by a simple electrical circuit with a switch or sensor. It includes a power source, wiring, and control mechanism to turn the lamp on/off automatically or manually..',
+    ss: '/Night Lamp.jpeg',
+    tech: ['Hardware', 'Hands-on', 'LDR'],
     live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    code: 'https://github.com/aditikarn-analyst/night-lamp-'
   },
   {
-  title: '💼 Portfolio Website',
-  desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
+  title: 'Sehat Bandhu - SIH 2025',
+  desc: 'Sehat Bandhu is a digital health platform from SIH 2025 that enhances healthcare access and disease tracking for Kerala’s migrant population, using AI/ML, geospatial tools, and multilingual support for equitable, timely care..',
+  ss: '/health detect..jpeg',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  code: 'https://github.com/aditikarn-analyst/SIH'
   },
   {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
+    title: 'GUVI HACKATHON-LLM Resume Reviwer',
+    desc: 'An intelligent web application that leverages LLMs and ATS-style scoring to help candidates analyze and enhance their resumes.',
+    ss: '/LLM.jpeg',
+    tech: ['Scikit-learn + Joblib', 'PyMuPDF / pdfminer', 'Keyword extraction + semantic matching'],
+    live: 'https://llmresumeanalysis.streamlit.app/',
+    code: 'https://github.com/Aaronrao989/AI_Resume_Analysis'
   },
   {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
+    title: 'Salary Analyzer',
+    desc: 'A simple Machine Learning web app built with Streamlit to predict employee salaries based on their details such as age, experience, and other categorical features.',
+    ss: '/salary.jpeg',
+    tech: ['Python', 'Pandas & NumPy (Data Handling)', 'Joblib (Model Saving & Loading)'],
+    live: 'https://employee-salary-prediction-nicuwy2cnu5qvvekaqxf5y.streamlit.app/',
+    code: 'https://github.com/Aaronrao989/employee-salary-prediction'
   },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
-  }
 ]
 
 export default function Projects() {

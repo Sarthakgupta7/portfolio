@@ -5,41 +5,43 @@ import "./Skills.css";
 const SKILLS = [
   { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "C", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-  { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-  { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
   { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
   { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+  { name: "Matlab", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/1340px-Matlab_Logo.png?20240227214640" },
+  { name: "scikit-Learn", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png" },
+  { name: "Latex", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2560px-LaTeX_logo.svg.png" },
+  { name: "MatplotLib", logo: "https://matplotlib.org/stable/_images/sphx_glr_logos2_003.png" },
+  { name: "Figma", logo: "https://s3-alpha.figma.com/hub/file/2811018019/cae7d25d-8aff-4c49-8189-fad585dfb7cb-cover.png" },
+  { name: "LTspice", logo: "https://lh3.googleusercontent.com/proxy/a0XjLGWRzVuD7PT6ps0R-oFKW05ym84p3mktwNSM-dKUB8MtOIxnNB-yc1DhHZESa1L4DnWKwIJFI68n7poPEjBEA1SJk_Vf4DyN5nYGsAiS" },
+  { name: "Multisim", logo: "https://digilent.com/blog/wp-content/uploads/2015/01/184_multisim_app_icon_ill.png" },
+  { name: "Canva", logo: "https://public.canva.site/logo/media/dfb96cc174513093cd6ed61489ccb750.svg" },
   { name: "OpenCV", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
-];
+]; 
 
 const ROWS = [
   [
-    { title: "Programming Languages", items: ["Python", "C", "C++", "Java"] },
-    { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React"] },
-    { title: "Databases & Tools", items: ["MySQL", "MongoDB", "Git"] },
-    { title: "Frameworks & Libraries", items: ["TensorFlow", "PyTorch", "OpenCV"] },
+    { title: "Programming Languages", items: ["Python", "C", "C++" ] },
+    { title: "Web Technologies", items: ["HTML", "CSS", "React"] },
+    { title: "Databases & Tools", items: ["MySQL", "Git"] },
+    { title: "Frameworks & Libraries", items: ["MatplotLib", "PyTorch", "OpenCV"] },
   ],
   [
     {
       title: "Core Concepts",
       items: [
         "Data Structures & Algorithms",
-        "Machine Learning",
-        "Deep Learning",
-        "YOLO Object Detection",
-        "Explainable AI (XAI)",
+        "Power system",
+        "Control System",
+        "Eletrcial Machine",
       ],
     },
     {
       title: "Soft Skills",
-      items: ["Teamwork", "Problem Solving", "Creativity", "Adaptability", "Communication"],
+      items: ["Teamwork", "Leadership", "Creativity", "Adaptability", "Communication"],
     },
   ],
 ];

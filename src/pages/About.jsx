@@ -56,16 +56,20 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>Kunj Desai</strong> — an aspiring{" "}
-          <strong>Artificial Intelligence Engineer</strong> and{" "}
-          <strong>Machine Learning enthusiast</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
+          Hi, I’m <strong>ADITI KARN</strong> — an aspiring{" "}
+          <strong>Electrical & Electronics Engineer</strong> and{" "}
+          <strong> Data Analytics enthusiast</strong> who loves to tackle 
+          problems in the real world and turning unprocessed data into 
+          insightful knowledge.. I’m deeply fascinated by how data and
           algorithms can shape the future of healthcare, automation, and
-          creativity in technology.
+          creativity in technology.I have a great deal of expertise in
+          production coordination,event planning, leadership, and promotions. 
+          I am presently the <strong>Secretary General</strong> of 
+          SYC_ABESEC(Yoga and Wellness Club of ABES EC).
         </p>
 
         <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring design, experimenting with motion and
+          Beyond code, I enjoy exploring design, experimenting with Fashion and
           interaction, and finding ways to blend{" "}
           <strong>artistic creativity</strong> with{" "}
           <strong>technical precision</strong>. My goal is to build solutions
@@ -73,8 +77,10 @@ const AboutMe = () => {
         </p>
 
         <p>
-            4th-year B.Tech AI Engineering student with hands-on experience in ML & DL Projects. Proficient in Python, scikitlearn,pytorch,tensorflow and data preprocessing. Seeking internship opportunities to apply skills and contribute to
-            impactful AI solutions.
+            3rd-year B.Tech Electrical & Electronics Engineering student with 
+            hands-on experience in Robotics Projects. Proficient in Python, scikitlearn,
+            SQL and data preprocessing. Seeking internship opportunities to apply 
+            skills and contribute to impactful solutions.
         </p>
 
         {/* --- Education Section --- */}
@@ -131,7 +137,7 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  B.Tech in Artificial Intelligence and Data Science
+                  B.Tech in Electrical and Electronics
                 </h4>
                 <p
                   style={{
@@ -139,13 +145,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>S.C.E.T (Sarvajanik University)</strong> — Surat,
-                  Gujarat
+                  <strong>ABES EC (Dr A.P.J. Abdul Kalam Technical University)</strong> — Ghaziabad,
+                  Uttar Pradesh
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  4th Year (Pursuing) | GPA: 9.0
+                  3rd Year (Pursuing) 
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>2022 – 2026</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>2023 – 2027</p>
               </div>
             </motion.div>
 
@@ -184,13 +190,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Ambika
-                  Niketan, Surat
+                  <strong>Kendriya Vidyalaya </strong> — 
+                  New Delhi,Delhi
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 78%
+                  CBSE
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2023</p>
               </div>
             </motion.div>
 
@@ -229,13 +235,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Surat,
-                  Gujarat
+                  <strong>Kendriya Vidyalaya </strong> — 
+                  New Delhi,Delhi
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 69%
+                  CBSE
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2020</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2021</p>
               </div>
             </motion.div>
           </div>
