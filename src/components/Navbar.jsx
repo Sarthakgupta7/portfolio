@@ -76,12 +76,12 @@ export default function Navbar() {
               color: "var(--accent)",
             }}
           >
-            AR
+            AK
           </motion.div>
           <div>
-            <h1 style={{ margin: 0, fontSize: 14 }}>Aaron Rao</h1>
+            <h1 style={{ margin: 0, fontSize: 14 }}>Aditi Karn</h1>
             <div style={{ fontSize: 12, color: "var(--muted)" }}>
-              ML • AI • Developer
+              Electrical • Electronics • Data Analyst
             </div>
           </div>
         </div>
