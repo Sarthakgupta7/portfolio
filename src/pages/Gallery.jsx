@@ -21,15 +21,15 @@ const IMAGES = {
     {
       id: 1,
       caption:
-        "Me",
-      photos: ["/gallery/me.jpeg", "/gallery/me2.jpg","/gallery/working.jpg"],
+        "certicates",
+      photos: ["/gallery/certificate.JPG","/gallery/working.jpg"],
     },
     
     {
       id: 1,
       caption:
         "workshop and visits",
-      photos: ["/gallery/workshop.jpeg", "/gallery/visit.JPG","/gallery/visit microsoft.jpeg", "/gallery/coca cola.jpg"],
+      photos: ["/gallery/workshop.jpeg", "/gallery/visit.JPG"],
     },
   ],
   achievements: [
