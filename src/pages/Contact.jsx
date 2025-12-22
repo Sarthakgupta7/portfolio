@@ -71,7 +71,6 @@ export default function Contact() {
     { img: githubLogo, title: "GitHub", link: "https://github.com/aditikarn-analyst" },
     { img: linkedinLogo, title: "LinkedIn", link: "https://linkedin.com/in/aditikarn-data-analyst" },
     { img: gmailLogo, title: "Email", link: "mailto:aditikarnoff88@gmail.com" },
-    { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+918076599167" },
     { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/coco_addu_08/" },
     { img: facebookLogo, title: "Snapchat", link: "https://www.snapchat.com/add/aditi6707/" },
   ];
