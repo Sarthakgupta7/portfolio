@@ -3,85 +3,59 @@
   --muted: #aaa;
 }
 
-/* ===============================
-   GLOBAL SAFETY
-   =============================== */
-html,
-body {
-  overflow-x: hidden;
-}
-
-/* ===============================
-   NAVBAR
-   =============================== */
+/* --- Navbar Container --- */
 .nav {
   position: sticky;
   top: 0;
   z-index: 100;
-  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0.8rem 1.5rem;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   background: rgba(0,0,0,0.6);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-family: inherit;
 }
 
-/* ===============================
-   LEFT
-   =============================== */
+/* --- Left Section (Logo + Name) --- */
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 10px;
-  min-width: 0;
+  gap: 12px;
 }
 
 .logo {
+  font-weight: 600; /* slightly less bold */
   font-size: 1.4rem;
-  font-weight: 700;
   color: var(--accent);
-}
-
-.nav-name {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
 }
 
 .nav-name h1 {
   margin: 0;
   font-size: 14px;
-  white-space: nowrap;
+  color: #fff;
 }
 
 .nav-tagline {
   font-size: 12px;
   color: var(--muted);
-  white-space: nowrap;
 }
 
-/* ===============================
-   LINKS (DESKTOP)
-   =============================== */
+/* --- Navigation Links --- */
 .nav-links {
   display: flex;
-  align-items: center;
-  gap: 1.6rem;
   justify-content: center;
-  flex-wrap: nowrap;
-}
-
-.nav-link {
-  text-decoration: none;
+  align-items: center;
+  gap: 1.8rem;
+  flex-grow: 1;
 }
 
 .nav-link-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.95rem;
+  cursor: pointer;
 }
 
 .underline {
@@ -89,66 +63,59 @@ body {
   height: 2px;
   margin-top: 4px;
   border-radius: 1px;
-  background: var(--accent);
+  background-color: var(--accent);
   box-shadow: 0 0 6px var(--accent);
 }
 
-/* ===============================
-   HAMBURGER
-   =============================== */
-.mobile-btn {
+/* --- Mobile Menu Button --- */
+.mobile-btn button {
   background: none;
   border: none;
-  font-size: 1.8rem;
   color: #fff;
+  font-size: 1.8rem;
   cursor: pointer;
+  z-index: 9999;
 }
 
-/* ===============================
-   MOBILE MENU
-   =============================== */
+/* --- Mobile Dropdown --- */
 .mobile-dropdown {
   position: fixed;
-  inset: 0;
+  top: 0;          /* start from top */
+  left: 0;
+  width: 100%;
+  height: 100vh;   /* cover entire viewport */
   background: rgba(0,0,0,0.95);
   backdrop-filter: blur(12px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 4rem;
-  overflow-y: auto;
+  padding-top: 4rem; /* leave space for close button */
+  overflow-y: hidden;
   z-index: 9999;
 }
 
-.mobile-close {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 2rem;
-  cursor: pointer;
-}
 
-.mobile-link {
-  width: 100%;
-  padding: 0.9rem 0;
-  text-align: center;
-  font-size: 15px;
+.mobile-dropdown a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 0.8rem 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 14px;
+  transition: background 0.2s;
+  z-index: 9999;
 }
 
-/* ===============================
-   MOBILE OPTIMIZATION
-   =============================== */
-@media (max-width: 480px) {
-  .nav-name h1,
-  .nav-tagline {
-    max-width: 140px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+.mobile-dropdown a:hover {
+  background: rgba(0,180,255,0.1);
+}
+
+.nav-menu {
+  position: fixed; /* absolute can get blocked by parent */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* cover full screen */
+  z-index: 1000; /* already done */
 }

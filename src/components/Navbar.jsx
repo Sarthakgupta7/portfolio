@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import "../CSS/navbar.css";
 
 const links = [
   { label: "Home", to: "/" },
@@ -21,11 +20,11 @@ export default function Navbar() {
   const navRef = useRef(null);
   const linksRef = useRef(null);
 
-  // Detect overflow to switch to hamburger
+  // Detect overflow → show hamburger
   const checkOverflow = () => {
     if (!navRef.current || !linksRef.current) return;
     setShowButton(
-      linksRef.current.scrollWidth > navRef.current.clientWidth
+      linksRef.current.scrollWidth > navRef.current.offsetWidth
     );
   };
 
@@ -35,61 +34,105 @@ export default function Navbar() {
     return () => window.removeEventListener("resize", checkOverflow);
   }, []);
 
-  // Prevent body scroll when menu open
+  // 🔒 Lock background scroll on mobile menu open
   useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "";
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
   return (
     <>
-      {/* ================= NAVBAR ================= */}
-      <nav className="nav" ref={navRef}>
-        {/* Left */}
-        <div className="nav-left">
+      {/* ===== Navbar ===== */}
+      <nav
+        ref={navRef}
+        style={{
+          position: "sticky",
+          top: 0,
+          zIndex: 100,
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "1rem 2rem",
+          borderBottom: "1px solid rgba(255,255,255,0.1)",
+          background: "rgba(0,0,0,0.6)",
+          backdropFilter: "blur(10px)",
+        }}
+      >
+        {/* Logo */}
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <motion.div
-            className="logo"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ type: "spring", stiffness: 200 }}
+            style={{
+              fontWeight: "bold",
+              fontSize: "1.4rem",
+              color: "var(--accent)",
+            }}
           >
-            AK
+            AR
           </motion.div>
-
-          <div className="nav-name">
-            <h1>Aditi Karn</h1>
-            <span className="nav-tagline">
-              Electrical • Electronics • Data Analyst
-            </span>
+          <div>
+            <h1 style={{ margin: 0, fontSize: 14 }}>Aaron Rao</h1>
+            <div style={{ fontSize: 12, color: "var(--muted)" }}>
+              ML • AI • Developer
+            </div>
           </div>
         </div>
 
         {/* Desktop Links */}
         <div
-          className="nav-links"
           ref={linksRef}
-          style={{ display: showButton ? "none" : "flex" }}
+          style={{
+            display: showButton ? "none" : "flex",
+            gap: "2rem",
+            alignItems: "center",
+            flexGrow: 1,
+            justifyContent: "center",
+          }}
         >
           {links.map((l) => (
             <NavLink
               key={l.to}
               to={l.to}
               end
-              className="nav-link"
+              style={{ textDecoration: "none" }}
             >
               {({ isActive }) => (
                 <motion.div
-                  className="nav-link-content"
-                  whileHover={{ scale: 1.05 }}
+                  whileHover={{
+                    scale: 1.1,
+                    color: "var(--accent)",
+                    textShadow: "0 0 8px var(--accent)",
+                  }}
+                  style={{
+                    color: isActive ? "var(--accent)" : "#fff",
+                    fontSize: "0.95rem",
+                    fontWeight: 500,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
                 >
-                  <span
-                    style={{
-                      color: isActive ? "var(--accent)" : "#fff",
-                    }}
-                  >
-                    {l.label}
-                  </span>
-
-                  {isActive && <div className="underline" />}
+                  {l.label}
+                  {isActive && (
+                    <motion.div
+                      layoutId="underline"
+                      style={{
+                        width: "70%",
+                        height: "2px",
+                        marginTop: "4px",
+                        background: "var(--accent)",
+                        boxShadow: "0 0 6px var(--accent)",
+                      }}
+                    />
+                  )}
                 </motion.div>
               )}
             </NavLink>
@@ -99,26 +142,54 @@ export default function Navbar() {
         {/* Hamburger */}
         {showButton && (
           <button
-            className="mobile-btn"
-            onClick={() => setIsOpen((p) => !p)}
+            onClick={() => setIsOpen(true)}
+            style={{
+              background: "none",
+              border: "none",
+              fontSize: "1.8rem",
+              color: "#fff",
+              cursor: "pointer",
+            }}
           >
-            {isOpen ? "✕" : "☰"}
+            ☰
           </button>
         )}
       </nav>
 
-      {/* ================= MOBILE MENU ================= */}
+      {/* ===== Mobile Menu ===== */}
       <AnimatePresence>
         {isOpen && showButton && (
           <motion.div
-            className="mobile-dropdown"
-            initial={{ opacity: 0, y: -15 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
+            exit={{ opacity: 0, y: -20 }}
+            style={{
+              position: "fixed",
+              inset: 0,
+              height: "100dvh",
+              background: "rgba(0,0,0,0.95)",
+              backdropFilter: "blur(12px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              paddingTop: "4rem",
+              overflowY: "auto",
+              overscrollBehavior: "contain",
+              zIndex: 9999,
+            }}
           >
             <button
-              className="mobile-close"
               onClick={() => setIsOpen(false)}
+              style={{
+                position: "absolute",
+                top: "1rem",
+                right: "1rem",
+                background: "none",
+                border: "none",
+                fontSize: "2rem",
+                color: "#fff",
+                cursor: "pointer",
+              }}
             >
               ✕
             </button>
@@ -127,8 +198,16 @@ export default function Navbar() {
               <NavLink
                 key={l.to}
                 to={l.to}
-                className="mobile-link"
                 onClick={() => setIsOpen(false)}
+                style={({ isActive }) => ({
+                  color: isActive ? "var(--accent)" : "#fff",
+                  textDecoration: "none",
+                  padding: "1rem 0",
+                  width: "100%",
+                  textAlign: "center",
+                  fontSize: 16,
+                  borderBottom: "1px solid rgba(255,255,255,0.05)",
+                })}
               >
                 {l.label}
               </NavLink>
