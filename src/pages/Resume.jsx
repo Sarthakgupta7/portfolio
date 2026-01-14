@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 Aditi Karn
+              👨‍💻 Sarthak Gupta
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              3rd Year B.Tech — Electrical and Electronics| ABES EC, Dr A.P.J. Abdul Kalam Technical University
+              4th Year B.Tech - Information Technology| ABES EC, Dr A.P.J. Abdul Kalam Technical University
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 New Delhi, Delhi, Indian
+              📍 Ghaziabad, Uttar Pradesh , Indian
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ aditikarnoff88@gmail.com |
+              ✉️ sarthakgupta.ksj@gmail.com |
             </p>
           </div>
 
@@ -80,11 +80,11 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              3rd-year B.Tech Electrical and Electronics student experienced in Statistical Analysis, Data Cleaning,
-              electrical systems, and Team Leadership.
-              Skilled in Python, Matlab, MySql, and Scikit-learn. Deeply fascinated by how data and
-              algorithms can shape the future of healthcare, automation, and
-              creativity in technology.
+             Passionate software developer with hands-on experience in
+              JavaScript, React, and AI-powered applications. Built multiple
+              end-to-end projects including AI Code Reviewer, Salary Predictor,
+              and interactive web apps. Strong interest in full-stack
+              development, AI tools, and problem-solving.
             </p>
           </motion.div>
         </motion.div>
@@ -107,19 +107,19 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Electrical & Electornics</strong> — ABES EC
-              (AKTU), 2023–2027 <br />
+              <strong>B.Tech in Information Technology</strong> — ABES EC
+              (AKTU), 2022–2026 <br />
               <span style={{ color: "#aaa" }}>GPA: 7.8</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — Kendriya Vidyalaya</strong> (CBSE
-              , 2023) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 77.8%</span>
+              <strong>12th Board — SJS Public School</strong> (CBSE
+              , 2022) <br />
+              <span style={{ color: "#aaa" }}>Percentage: 82.6%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Kendriya Vidyalaya</strong> (CBSE, 2021)
+              <strong>10th Board — SJS Public School</strong> (CBSE, 2020)
               <br />
-              <span style={{ color: "#aaa" }}>Percentage: 88%</span>
+              <span style={{ color: "#aaa" }}>Percentage: 84.4%</span>
             </li>
           </ul>
         </motion.div>
@@ -133,10 +133,10 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ 4 legged robot</li>
-            <li>2️⃣ Women safety app </li>
-            <li>3️⃣ LLM Powered Resume </li>
-            <li>4️⃣ AI powered Health Platform</li>
+            <li>1️⃣ AI-Powered Code Reviewer</li>
+            <li>2️⃣ Recipedia (Recipe Management App)</li>
+            <li>3️⃣ Employee Salary Predictor & Insights Dashboard</li>
+            <li>4️⃣ To-Do List Web App</li>
           </ul>
         </motion.div>
 
@@ -149,18 +149,18 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-            {[
-              "Python",
-              "C",
-              "Scikit-learn",
-              "React",
-              "MySQL",
-              "Git",
+            {["Python",
+              "SQL",
+              "JavaScript",
+              "React.js",
+              "HTML",
+              "CSS",
+              "Node.js",
+              "Express.js",
+              "Git & GitHub",
               "Problem Solving",
-              "Leadership",   
-              "Teamwork",
-              "Adaptability",
-              "Creativity",
+              "Leadership",
+              "UI/UX Basics",
             ].map((skill) => (
               <motion.span
                 key={skill}
@@ -190,9 +190,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 codechef", link: "https://www.codechef.com/users/bloat_ref_78" },
-            { name: "💻 GitHub", link: "https://github.com/aditikarn-analyst" },
-            { name: "💼 LinkedIn", link: "linkedin.com/in/aditikarn-data-analyst" },
+            { name: "🏆 codechef", link: "https://www.codechef.com/users/sarthak_205" },
+            { name: "💻 GitHub", link: "https://github.com/Sarthakgupta7" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/sarthak-gupta-946295258/" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -226,7 +226,7 @@ export default function Resume() {
         >
           <iframe
             src="/resume.pdf"
-            title="Aditi Karn Resume"
+            title="Sarthak Gupta Resume"
             style={{
               width: "100%",
               height: "650px",

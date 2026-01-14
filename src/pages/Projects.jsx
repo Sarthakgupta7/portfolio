@@ -3,54 +3,47 @@ import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
+ {
+  title: 'AI-Powered Code Reviewer',
+  desc: 'An AI-driven web application that reviews source code and provides real-time explanations, debugging suggestions, and best-practice recommendations to help developers write cleaner and more efficient code.',
+  ss: '/AIReview.png',
+  tech: ['React.js', 'Node.js', 'Express.js', 'Tailwind CSS', 'Gemini API'],
+  live: 'https://code-review-w5s2.onrender.com/',
+  code: 'https://github.com/Sarthakgupta7/code-reviewer'
+},
+ {
+  title: 'Recipedia',
+  desc: 'A sleek and intuitive recipe management web application that allows users to create, edit, delete, and favorite recipes. All data is stored in the browser using local storage, providing a seamless experience without requiring a backend.',
+  ss: '/download.jpeg',
+  tech: ['React.js', 'JavaScript', 'CSS', 'Local Storage', 'React Router'],
+  live: 'https://recipedia-sooty.vercel.app',
+  code: 'https://github.com/Sarthakgupta7/Recipedia'
+},
   {
-    title: '4 Legged robot',
-    desc: 'A four-legged robot project uses servo/DC motors controlled by a microcontroller to mimic animal-like walking. Its electrical system includes motor drivers, sensors, and a rechargeable battery for stable power and balance.',
-    ss: '/4 legged robot.jpg',
-    tech: ['Ardiuno', 'Hands-on experience'],
-    live: '#',
-    code: 'https://github.com/aditikarn-analyst/4-legged-robot'
+   title: 'Employee Salary Predictor',
+desc: 'A responsive web application that predicts employee salaries based on experience, education, job role, level, and location. The app features a searchable job dropdown, dark/light mode, and a detailed insights dashboard with charts and career improvement suggestions.',
+ss: '/salary.jpeg',
+tech: ['HTML', 'CSS', 'JavaScript', 'Chart.js', 'GitHub Pages'],
+live: 'https://sarthakgupta7.github.io/salarypredictor/',
+code: 'https://github.com/Sarthakgupta7/salarypredictor'
   },
   {
-  title: 'Women Safety app- SIH 2024',
-  desc: 'A Women Safety API project provides a digital interface for emergency alerts and location sharing. It integrates with mobile apps, GPS, and messaging services to notify contacts or authorities instantly.',
-  ss: '/Women safety.jpeg',
-  tech: ['Python', 'Transformers', 'Sos-calling', 'software'],
-  live: '#',
-  code: 'https://github.com/aditikarn-analyst/Women-safety'
-  },
-  {
-    title: 'Night Lamp using LDR',
-    desc: 'A night lamp project uses a bulb/LED powered by a simple electrical circuit with a switch or sensor. It includes a power source, wiring, and control mechanism to turn the lamp on/off automatically or manually..',
-    ss: '/Night Lamp.jpeg',
-    tech: ['Hardware', 'Hands-on', 'LDR'],
-    live: '#',
-    code: 'https://github.com/aditikarn-analyst/night-lamp-'
-  },
-  {
-  title: 'Sehat Bandhu - SIH 2025',
-  desc: 'Sehat Bandhu is a digital health platform from SIH 2025 that enhances healthcare access and disease tracking for Kerala’s migrant population, using AI/ML, geospatial tools, and multilingual support for equitable, timely care..',
-  ss: '/health detect..jpeg',
-  tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-  live: '#',
-  code: 'https://github.com/aditikarn-analyst/SIH'
-  },
-  {
-    title: 'GUVI HACKATHON-LLM Resume Reviwer',
-    desc: 'An intelligent web application that leverages LLMs and ATS-style scoring to help candidates analyze and enhance their resumes.',
-    ss: '/LLM.jpeg',
-    tech: ['Scikit-learn + Joblib', 'PyMuPDF / pdfminer', 'Keyword extraction + semantic matching'],
-    live: 'https://llmresumeanalysis.streamlit.app/',
-    code: 'https://github.com/Aaronrao989/AI_Resume_Analysis'
-  },
-  {
-    title: 'Salary Analyzer',
-    desc: 'A simple Machine Learning web app built with Streamlit to predict employee salaries based on their details such as age, experience, and other categorical features.',
-    ss: '/salary.jpeg',
-    tech: ['Python', 'Pandas & NumPy (Data Handling)', 'Joblib (Model Saving & Loading)'],
-    live: 'https://employee-salary-prediction-nicuwy2cnu5qvvekaqxf5y.streamlit.app/',
-    code: 'https://github.com/Aaronrao989/employee-salary-prediction'
-  },
+  title: 'To-Do List Web App',
+  desc: 'A responsive to-do list web application built using HTML, CSS, and JavaScript that allows users to add, schedule, and delete tasks with due dates. Features an animated background slider and a clean, user-friendly interface.',
+  ss: '/todo.jpeg',
+  tech: ['HTML', 'CSS', 'JavaScript', 'DOM Manipulation'],
+  live: 'https://verdant-maamoul-ea1053.netlify.app/',
+  code: 'https://github.com/Sarthakgupta7/Todoapp'
+}
+,
+   {
+  title: 'Tic Tac Toe Game',
+  desc: 'A classic Tic Tac Toe web game built using HTML, CSS, and JavaScript featuring interactive gameplay, clean UI, and responsive design. The game allows two players to play turn-by-turn with instant win and draw detection.',
+  ss: '/sps2.jpeg',
+  tech: ['HTML', 'CSS', 'JavaScript', 'DOM Manipulation'],
+  live: 'https://papaya-kelpie-f911e1.netlify.app/',
+  code: 'https://github.com/Sarthakgupta7/tictactoe'
+},
 ]
 
 export default function Projects() {

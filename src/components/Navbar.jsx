@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const links = [
   { label: "Home", to: "/" },
   { label: "Projects", to: "/projects" },
-  { label: "Gallery", to: "/gallery" },
+  // { label: "Gallery", to: "/gallery" },
   { label: "Skills", to: "/skills" },
   { label: "Certificates", to: "/certificates" },
   { label: "Blog", to: "/blog" },
@@ -76,13 +76,13 @@ export default function Navbar() {
               color: "var(--accent)",
             }}
           >
-            AK
+            SG
           </motion.div>
           <div>
-            <h1 style={{ margin: 0, fontSize: 14 }}>Aditi Karn</h1>
+            <h1 style={{ margin: 0, fontSize: 14 }}>Sarthak Gupta</h1>
             <div style={{ fontSize: 12, color: "var(--muted)" }}>
-              Electrical • Electronics • Data Analyst
-            </div>
+  AI Enthusiast • Analytical Thinker • Problem Solver
+</div>
           </div>
         </div>
 

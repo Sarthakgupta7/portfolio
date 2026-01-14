@@ -56,32 +56,30 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>ADITI KARN</strong> — an aspiring{" "}
-          <strong>Electrical & Electronics Engineer</strong> and{" "}
-          <strong> Data Analytics enthusiast</strong> who loves to tackle 
-          problems in the real world and turning unprocessed data into 
-          insightful knowledge.. I’m deeply fascinated by how data and
-          algorithms can shape the future of healthcare, automation, and
-          creativity in technology.I have a great deal of expertise in
-          production coordination,event planning, leadership, and promotions. 
-          I am presently the <strong>Secretary General</strong> of 
-          SYC_ABESEC(Yoga and Wellness Club of ABES EC).
-        </p>
+          Hi, I’m <strong>Sarthak Gupta</strong> — a{" "}
+  <strong>B.Tech Information Technology student</strong> with a strong interest
+  in building real-world, scalable software solutions. I enjoy working with{" "}
+  <strong>web technologies, data, and problem-solving systems</strong> to turn
+  ideas into functional products. I have hands-on experience in{" "}
+  <strong>full-stack development</strong> and have built projects like an
+  AI-Powered Code Debugging Assistant and Recipedia.
+</p>
 
-        <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring design, experimenting with Fashion and
-          interaction, and finding ways to blend{" "}
-          <strong>artistic creativity</strong> with{" "}
-          <strong>technical precision</strong>. My goal is to build solutions
-          that not only perform — but also inspire.
-        </p>
+<p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
+  Beyond coding, I bring solid experience in{" "}
+  <strong>leadership, coordination, and teamwork</strong>. I currently serve as{" "}
+  the <strong>General Secretary of SYC</strong> at ABES Engineering College and
+  have actively led technical events, innovation programs, and community-driven
+  initiatives.
+</p>
 
-        <p>
-            3rd-year B.Tech Electrical & Electronics Engineering student with 
-            hands-on experience in Robotics Projects. Proficient in Python, scikitlearn,
-            SQL and data preprocessing. Seeking internship opportunities to apply 
-            skills and contribute to impactful solutions.
-        </p>
+<p>
+  3rd-year B.Tech IT student with proficiency in Python, SQL, JavaScript, React,
+  Node.js, and core CS fundamentals like Object Orientation Programming and Data Structure & Algorithm. Seeking internship and
+  entry-level opportunities to apply technical skills and contribute to
+  impactful technology solutions.
+</p>
+
 
         {/* --- Education Section --- */}
         <motion.div
@@ -137,7 +135,7 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  B.Tech in Electrical and Electronics
+                  B.Tech in Information Technology
                 </h4>
                 <p
                   style={{
@@ -149,9 +147,9 @@ const AboutMe = () => {
                   Uttar Pradesh
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  3rd Year (Pursuing) 
+                  4<sup>th</sup> Year (Pursuing) 
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>2023 – 2027</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>2022 – 2026</p>
               </div>
             </motion.div>
 
@@ -190,13 +188,13 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>Kendriya Vidyalaya </strong> — 
-                  New Delhi,Delhi
+                  <strong>S.J.S Public School</strong> — 
+                  Kasganj, Uttar Pradesh
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
                   CBSE
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2023</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
               </div>
             </motion.div>
 
@@ -235,17 +233,127 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>Kendriya Vidyalaya </strong> — 
-                  New Delhi,Delhi
+                   <strong>S.J.S Public School</strong> — 
+                  Kasganj, Uttar Pradesh
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
                   CBSE
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2021</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2020</p>
               </div>
             </motion.div>
           </div>
         </motion.div>
+        {/* --- Experience Section --- */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 1.2, duration: 0.8 }}
+  style={{ marginTop: "3rem" }}
+>
+  <h3
+    style={{
+      fontSize: "1.6rem",
+      marginBottom: "1.5rem",
+      background:
+        "linear-gradient(90deg, var(--accent), var(--accent-2))",
+      WebkitBackgroundClip: "text",
+      color: "transparent",
+    }}
+  >
+    Experience
+  </h3>
+
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      gap: "1.2rem",
+    }}
+  >
+    {/* --- Experience Card 1 --- */}
+    <motion.div
+      whileHover={{
+        scale: 1.02,
+        boxShadow: "0 0 25px rgba(0,255,200,0.15)",
+      }}
+      transition={{ duration: 0.3 }}
+      style={{
+        background: "rgba(255,255,255,0.05)",
+        borderRadius: "14px",
+        padding: "1.5rem 2rem",
+        border: "1px solid rgba(255,255,255,0.08)",
+        boxShadow: "0 0 15px rgba(0,255,200,0.05)",
+      }}
+    >
+      <h4 style={{ color: "var(--accent)", fontSize: "1.25rem" }}>
+        Full Stack Intern
+      </h4>
+      <p style={{ color: "rgba(255,255,255,0.85)" }}>
+        <strong>Ekaggata Technologies</strong> | Jul 2025 – Aug 2025
+      </p>
+      <p style={{ color: "rgba(255,255,255,0.75)" }}>
+        Designed and deployed a Timecard Management System for 100+ employees
+        using React, Firebase, and Tailwind CSS. Improved workflow efficiency
+        and reduced manual HR follow-ups.
+      </p>
+    </motion.div>
+
+    {/* --- Experience Card 2 --- */}
+    <motion.div
+      whileHover={{
+        scale: 1.02,
+        boxShadow: "0 0 25px rgba(0,255,200,0.15)",
+      }}
+      transition={{ duration: 0.3 }}
+      style={{
+        background: "rgba(255,255,255,0.05)",
+        borderRadius: "14px",
+        padding: "1.5rem 2rem",
+        border: "1px solid rgba(255,255,255,0.08)",
+        boxShadow: "0 0 15px rgba(0,255,200,0.05)",
+      }}
+    >
+      <h4 style={{ color: "var(--accent)", fontSize: "1.25rem" }}>
+        Content Research Analyst
+      </h4>
+      <p style={{ color: "rgba(255,255,255,0.85)" }}>
+        <strong>Know Your Colleges (KYC)</strong> | Jul 2024 – Jun 2025
+      </p>
+      <p style={{ color: "rgba(255,255,255,0.75)" }}>
+        Researched and structured data from 200+ college websites, improving
+        content accuracy and helping students make informed admission decisions.
+      </p>
+    </motion.div>
+
+    {/* --- Experience Card 3 --- */}
+    <motion.div
+      whileHover={{
+        scale: 1.02,
+        boxShadow: "0 0 25px rgba(0,255,200,0.15)",
+      }}
+      transition={{ duration: 0.3 }}
+      style={{
+        background: "rgba(255,255,255,0.05)",
+        borderRadius: "14px",
+        padding: "1.5rem 2rem",
+        border: "1px solid rgba(255,255,255,0.08)",
+        boxShadow: "0 0 15px rgba(0,255,200,0.05)",
+      }}
+    >
+      <h4 style={{ color: "var(--accent)", fontSize: "1.25rem" }}>
+        Campus Ambassador
+      </h4>
+      <p style={{ color: "rgba(255,255,255,0.85)" }}>
+        <strong>Teachnook</strong> | 2023
+      </p>
+      <p style={{ color: "rgba(255,255,255,0.75)" }}>
+        Promoted technical programs, coordinated student outreach, and
+        strengthened brand presence across campus through events and campaigns.
+      </p>
+    </motion.div>
+  </div>
+</motion.div>
       </motion.div>
     </div>
   );

@@ -10,11 +10,13 @@ import Resume from './pages/Resume'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
-import SkillNetwork from './pages/Skills'  
+import SkillNetwork from './pages/Skills' 
+import ScrollProgress from "./components/ScrollProgress"; 
 
 export default function App() {
   return (
     <div className="app">
+      <ScrollProgress />
       <Navbar />
       <main style={{ flex: 1 }}>
         <Routes>
@@ -31,7 +33,7 @@ export default function App() {
         </Routes>
       </main>
       <footer className="footer">
-        © {new Date().getFullYear()} Aditi Karn — Built with React
+        © {new Date().getFullYear()} Sarthak Gupta — Built with React
       </footer>
     </div>
   )

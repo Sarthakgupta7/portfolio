@@ -5,26 +5,26 @@ import "./blog.css";
 
 export default function Blog() {
   const defaultPosts = [
-    {
-      id: 1,
-      title: "How Does an Electrical Engineering student will Add Value to Data Analytics ",
-      text: "Electrical Engineering today is no longer limited to circuits and machines, it is increasingly data-driven. From power systems and smart grids to IoT sensors and fault diagnostics, massive amounts of data are generated continuously. Data analytics enables an electrical engineer to extract meaningful insights from this data, optimize system performance, predict failures, and support intelligent decision-making. Learning analytics bridges the gap between traditional engineering and modern industry requirements.",
-    },
-    {
-      id: 2,
-      title: "How Is Data Analytics Used in Power Systems and Energy Management",
-      text: "In Power System, Data Analytics is used for : Load Forecasting, Fault detection and predictive maintenance, power quality analysis etc. By applying statistical analysis and machine learning models, engineers can reduce outages, improve energy efficiency, and enhance grid reliability. This makes data analytics a critical skill for modern power engineers. ",
-    },
-    {
-      id: 3,
-      title: "What Mindset Should an Electrical Engineering Student Develop to Become a Data Analyst",
-      text: "Beyond tools and programming, mindset matters. A successful data-driven engineer should be curious about patterns, Questions assumptions, Validates results with data, Thinks critically about conclusions, Communicates insights Clearly,Engineering intuition combined with analytical thinking creates impactful solutions",
-    },
-    {
-      id: 4,
-      title: "How Does Data Analytics Prepare Electrical Engineers for Industry 4.0",
-      text: "Industry 4.0 emphasizes automation, IoT, and intelligent systems. Electrical engineers equipped with data analytics skills can analyze machine data, Optimize industrial processe,improve predictive maintenance.",
-    },
+   {
+  id: 1,
+  title: "How AI Is Transforming Learning for IT Students",
+  text: "Artificial Intelligence is changing how IT students learn and build projects. From AI-powered coding assistants to intelligent debugging and documentation tools, students can now understand concepts faster and focus more on problem-solving. When used responsibly, AI enhances learning efficiency and prepares students for modern, technology-driven careers.",
+},
+{
+  id: 2,
+  title: "Why Data Analytics Is Essential for IT Students Today",
+  text: "In a data-driven world, IT students must go beyond coding and understand data analytics. Skills like SQL, data analysis, and visualization help transform raw data into meaningful insights. Data analytics enables better decision-making, improved application performance, and stronger alignment with industry needs.",
+},
+{
+  id: 3,
+  title: "Generative AI and the Future of Software Development",
+  text: "Generative AI is reshaping software development by assisting in code generation, optimization, and debugging. For IT students, it acts as a productivity booster rather than a replacement, allowing them to focus on logic, design, and innovation while building scalable and efficient applications.",
+},
+{
+  id: 4,
+  title: "How AI and Data Skills Make IT Students Industry-Ready",
+  text: "Modern industries seek IT graduates who can adapt quickly and work with AI and data-driven systems. By learning data analytics and AI tools, students gain practical problem-solving abilities and real-world exposure, helping bridge the gap between academic learning and industry expectations.",
+}
   ];
 
   const [posts, setPosts] = useState([]);

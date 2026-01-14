@@ -119,3 +119,21 @@
   height: 100vh; /* cover full screen */
   z-index: 1000; /* already done */
 }
+/* ===============================
+   SCROLL PROGRESS BAR
+   =============================== */
+
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--accent),
+    var(--accent-2)
+  );
+  transform-origin: left;
+  z-index: 9999;
+}
