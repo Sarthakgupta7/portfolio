@@ -74,7 +74,7 @@ const AboutMe = () => {
 </p>
 
 <p>
-  3rd-year B.Tech IT student with proficiency in Python, SQL, JavaScript, React,
+  4th-year B.Tech IT student with proficiency in Python, SQL, JavaScript, React,
   Node.js, and core CS fundamentals like Object Orientation Programming and Data Structure & Algorithm. Seeking internship and
   entry-level opportunities to apply technical skills and contribute to
   impactful technology solutions.
