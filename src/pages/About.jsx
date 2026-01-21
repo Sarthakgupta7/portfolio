@@ -66,11 +66,14 @@ const AboutMe = () => {
 </p>
 
 <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-  Beyond coding, I bring solid experience in{" "}
-  <strong>leadership, coordination, and teamwork</strong>. I currently serve as{" "}
-  the <strong>General Secretary of SYC</strong> at ABES Engineering College and
-  have actively led technical events, innovation programs, and community-driven
-  initiatives.
+ Beyond coding, I bring strong experience in{" "}
+<strong>leadership, coordination, and teamwork</strong>. I have served as the{" "}
+<strong>General Secretary of SYC</strong>,{" "}
+<strong>Vice President of Unnat Bharat Abhiyan (UBA) under IIT Delhi</strong>,{" "}
+<strong>Treasurer of the Environment Club</strong>, and{" "}
+<strong>Student Coordinator of the Institution’s Innovation Council (IIC)</strong>,{" "}
+where I led technical events, innovation programs, and community-driven
+initiatives while working closely with diverse teams.
 </p>
 
 <p>
