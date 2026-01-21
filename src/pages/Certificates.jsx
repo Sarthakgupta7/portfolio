@@ -111,7 +111,7 @@ const CERTS = {
     },
 
   ],
-  other: [
+ // other: [
     {
       title: "Robotics",
       org: "INIF-ABESEC",
