@@ -103,7 +103,7 @@ export default function Home() {
           </h1>
 
           <p className="typing-effect">
-            Data Analyst | Full Stack Developer | AI Enthusiast | Problem Solver | Team Player
+             Full Stack Developer | AI Enthusiast | Data Analyst | Problem Solver | Team Player
           </p>
 
           {/* Profession Tags */}
