@@ -55,14 +55,14 @@ export default function Resume() {
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
               👨‍💻 Sarthak Gupta
             </h3>
-            <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech - Information Technology| ABES EC, Dr A.P.J. Abdul Kalam Technical University
+            <p style={{ marginTop: 10, fontSize: 15, color: "#ccc" }}>
+              4th Year B.Tech - Information Technology | ABES EC, Dr A.P.J. Abdul Kalam Technical University
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Ghaziabad, Uttar Pradesh , Indian
+              📍 Ghaziabad, Uttar Pradesh, India
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ sarthakgupta.ksj@gmail.com |
+              ✉️ sarthakgupta.ksj@gmail.com
             </p>
           </div>
 
@@ -80,16 +80,15 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-             Passionate software developer with hands-on experience in
-              JavaScript, React, and AI-powered applications. Built multiple
-              end-to-end projects including AI Code Reviewer, Salary Predictor,
-              and interactive web apps. Strong interest in full-stack
-              development, AI tools, and problem-solving.
+              Passionate software developer with hands-on experience in JavaScript,
+              React, and AI-powered applications. Built multiple end-to-end projects
+              including AI Code Reviewer, Salary Predictor, and interactive web apps.
+              Strong interest in full-stack development, AI tools, and problem-solving.
             </p>
           </motion.div>
         </motion.div>
 
-        {/* Education Section with Border Box */}
+        {/* Education */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -107,13 +106,13 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Information Technology</strong> — ABES EC
-              (AKTU), 2022–2026 <br />
+              <strong>B.Tech in Information Technology</strong> — ABES EC (AKTU), 2022–2026
+              <br />
               <span style={{ color: "#aaa" }}>GPA: 7.8</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — SJS Public School</strong> (CBSE
-              , 2022) <br />
+              <strong>12th Board — SJS Public School</strong> (CBSE, 2022)
+              <br />
               <span style={{ color: "#aaa" }}>Percentage: 82.6%</span>
             </li>
             <li style={{ marginTop: 8 }}>
@@ -149,18 +148,10 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
-            {["Python",
-              "SQL",
-              "JavaScript",
-              "React.js",
-              "HTML",
-              "CSS",
-              "Node.js",
-              "Express.js",
-              "Git & GitHub",
-              "Problem Solving",
-              "Leadership",
-              "UI/UX Basics",
+            {[
+              "Python","SQL","JavaScript","React.js","HTML","CSS",
+              "Node.js","Express.js","Git & GitHub",
+              "Problem Solving","Leadership","UI/UX Basics",
             ].map((skill) => (
               <motion.span
                 key={skill}
@@ -178,72 +169,74 @@ export default function Resume() {
             ))}
           </div>
         </motion.div>
-        <motion.div
-  initial={{ opacity: 0, y: 10 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 1.4 }}
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    gap: 30,
-    marginTop: 40,
-    flexWrap: "wrap",
-  }}
->
-  {[
-    {
-      name: "LeetCode",
-      icon: "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
-      link: "https://leetcode.com/u/sarthak-7/",
-    },
-    {
-      name: "CodeChef",
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg",
-      link: "https://www.codechef.com/users/sarthak_205",
-    },
-    {
-      name: "GitHub",
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg",
-      link: "https://github.com/Sarthakgupta7",
-    },
-    {
-      name: "LinkedIn",
-      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg",
-      link: "https://www.linkedin.com/in/sarthak-gupta-946295258/",
-    },
-  ].map((site) => (
-    <motion.a
-      key={site.name}
-      href={site.link}
-      target="_blank"
-      rel="noreferrer"
-      whileHover={{ scale: 1.1 }}
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: 8,
-        color: "#ccc",
-        textDecoration: "none",
-        fontSize: 15,
-        fontWeight: 500,
-      }}
-    >
-      <img
-        src={site.icon}
-        alt={site.name}
-        style={{
-          width: 20,
-          height: 20,
-          objectFit: "contain",
-          filter: site.name === "LeetCode" ? "invert(1)" : "none",
-        }}
-      />
-      <span>{site.name}</span>
-    </motion.a>
-  ))}
-</motion.div>
 
-        {/* PDF Viewer */}
+        {/* Social Links */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.4 }}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 30,
+            marginTop: 40,
+            flexWrap: "wrap",
+          }}
+        >
+          {[
+            {
+              name: "LeetCode",
+              icon: "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
+              link: "https://leetcode.com/u/sarthak-7/",
+            },
+            {
+              name: "CodeChef",
+              icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg",
+              link: "https://www.codechef.com/users/sarthak_205",
+            },
+            {
+              name: "GitHub",
+              icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg",
+              link: "https://github.com/Sarthakgupta7",
+            },
+            {
+              name: "LinkedIn",
+              icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg",
+              link: "https://www.linkedin.com/in/sarthak-gupta-946295258/",
+            },
+          ].map((site) => (
+            <motion.a
+              key={site.name}
+              href={site.link}
+              target="_blank"
+              rel="noreferrer"
+              whileHover={{ scale: 1.15 }}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 8,
+                color: "#ccc",
+                textDecoration: "none",
+                fontSize: 15,
+                fontWeight: 500,
+              }}
+            >
+              <img
+                src={site.icon}
+                alt={site.name}
+                style={{
+                  width: 20,
+                  height: 20,
+                  objectFit: "contain",
+                  filter: "invert(1) brightness(1.4)",
+                }}
+              />
+              <span>{site.name}</span>
+            </motion.a>
+          ))}
+        </motion.div>
+
+        {/* Resume PDF */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -267,9 +260,9 @@ export default function Resume() {
           />
         </motion.div>
 
-        {/* Download Button */}
+        {/* Download */}
         <motion.a
-          href="/resume.pdf"
+          href="dist/Resume.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -282,13 +275,10 @@ export default function Resume() {
             borderRadius: 8,
             textDecoration: "none",
             fontWeight: 500,
-            letterSpacing: 0.3,
           }}
         >
           ⬇️ Download Resume
         </motion.a>
-
-
       </motion.div>
     </section>
   );
