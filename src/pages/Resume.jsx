@@ -262,7 +262,7 @@ export default function Resume() {
 
         {/* Download */}
         <motion.a
-          href="dist/Resume.pdf"
+          href="resume.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
