@@ -249,7 +249,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="dist/Resume.pdf"
+            src="resume.pdf"
             title="Sarthak Gupta Resume"
             style={{
               width: "100%",
