@@ -111,28 +111,7 @@ const CERTS = {
     },
 
   ],
-  other: [
-    {
-      title: "Robotics",
-      org: "INIF-ABESEC",
-      date: "2025",
-      img: "/certs/Robotics.jpg",
-      link: "/certs/Robotics.jpg",
-    },
-    {
-      title: "HVAC",
-      org: "AKTU",
-      date: "2025",
-      img: "/certs/Hvac.png",
-      link: "/certs/Hvac.png",
-    },
-    {
-      title: "Fashion",
-      org: "JIMS",
-      date: "2024",
-      img: "/certs/fashion.jpeg",
-      link: "/certs/fashion.jpeg",
-    },
+ other: [
   ],
 };
 
