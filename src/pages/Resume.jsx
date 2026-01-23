@@ -179,55 +179,69 @@ export default function Resume() {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.4 }}
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: 30,
-            marginTop: 40,
-          }}
-        >
-          {[
-             {
-    name: "LeetCode",
-    icon: "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
-    link: "https://leetcode.com/u/sarthak-7/"
-  },
-  {
-    name: "CodeChef",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg",
-    link: "https://www.codechef.com/users/sarthak_205"
-  },
-  {
-    name: "GitHub",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg",
-    link: "https://github.com/Sarthakgupta7"
-  },
-  {
-    name: "LinkedIn",
-    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg",
-    link: "https://www.linkedin.com/in/sarthak-gupta-946295258/"
-  },
-          ].map((site) => (
-            <motion.a
-              key={site.name}
-              href={site.link}
-              target="_blank"
-              rel="noreferrer"
-              whileHover={{ scale: 1.1, color: "#00b4ff" }}
-              style={{
-                color: "#ccc",
-                textDecoration: "none",
-                fontSize: 15,
-                fontWeight: 500,
-              }}
-            >
-              {site.name}
-            </motion.a>
-          ))}
-        </motion.div>
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 1.4 }}
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: 30,
+    marginTop: 40,
+    flexWrap: "wrap",
+  }}
+>
+  {[
+    {
+      name: "LeetCode",
+      icon: "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
+      link: "https://leetcode.com/u/sarthak-7/",
+    },
+    {
+      name: "CodeChef",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg",
+      link: "https://www.codechef.com/users/sarthak_205",
+    },
+    {
+      name: "GitHub",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg",
+      link: "https://github.com/Sarthakgupta7",
+    },
+    {
+      name: "LinkedIn",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg",
+      link: "https://www.linkedin.com/in/sarthak-gupta-946295258/",
+    },
+  ].map((site) => (
+    <motion.a
+      key={site.name}
+      href={site.link}
+      target="_blank"
+      rel="noreferrer"
+      whileHover={{ scale: 1.1 }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 8,
+        color: "#ccc",
+        textDecoration: "none",
+        fontSize: 15,
+        fontWeight: 500,
+      }}
+    >
+      <img
+        src={site.icon}
+        alt={site.name}
+        style={{
+          width: 20,
+          height: 20,
+          objectFit: "contain",
+          filter: site.name === "LeetCode" ? "invert(1)" : "none",
+        }}
+      />
+      <span>{site.name}</span>
+    </motion.a>
+  ))}
+</motion.div>
 
         {/* PDF Viewer */}
         <motion.div
