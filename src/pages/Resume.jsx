@@ -190,9 +190,26 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 codechef", link: "https://www.codechef.com/users/sarthak_205" },
-            { name: "💻 GitHub", link: "https://github.com/Sarthakgupta7" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/sarthak-gupta-946295258/" },
+             {
+    name: "LeetCode",
+    icon: "https://leetcode.com/static/images/LeetCode_logo_rvs.png",
+    link: "https://leetcode.com/u/sarthak-7/"
+  },
+  {
+    name: "CodeChef",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg",
+    link: "https://www.codechef.com/users/sarthak_205"
+  },
+  {
+    name: "GitHub",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg",
+    link: "https://github.com/Sarthakgupta7"
+  },
+  {
+    name: "LinkedIn",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg",
+    link: "https://www.linkedin.com/in/sarthak-gupta-946295258/"
+  },
           ].map((site) => (
             <motion.a
               key={site.name}
